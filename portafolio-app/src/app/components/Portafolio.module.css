@@ -1,0 +1,13 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.perfil{
+    width: Fixed (631px);
+    height: Hug (215px);
+    top: 178px;
+    left: 548px;
+    gap: 40px;
+}
