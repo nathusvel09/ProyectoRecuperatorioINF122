@@ -1,0 +1,100 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 20px 2px;
+    width: 580px;
+    height: 142px;
+    left: 550px;
+    top: 441px;
+    padding: 20px, 2px, 20px, 2px;
+    gap: 90px;    
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin: 20px;
+}
+.fact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 102px;
+    margin: 10px;
+    margin-left: 35px;
+}
+.fact h2{
+    width: 47px;
+    height: 36px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #d580ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 15px;
+    align-items: center;
+}
+.fact p{
+    width: 145px;
+    height: 102px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #ffffff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+@media screen and (max-width: 768px) {
+    .contenedor {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        gap: 40px;
+        margin-bottom: 30px;
+        font-family: 'Poppins', sans-serif;
+        width: 330px;
+        height: 64px;
+        padding: 5px, 2px, 5px, 2px;
+        border-radius: 10px;
+        gap: 9px;
+    }
+    .fact {
+        padding: 0px;
+        margin: 0 auto;
+        width: 103px;
+        height: 66px;
+        align-items: center;
+    }
+    .fact h2 {
+        width: 9px;
+        height: 24px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #d580ff;
+        align-items: center;
+        margin: 0px;
+    }
+    .fact p{
+        width: 102px;
+        height: 42px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #A3ABB2;
+        order: 1;
+        margin: 0px;
+    }
+}

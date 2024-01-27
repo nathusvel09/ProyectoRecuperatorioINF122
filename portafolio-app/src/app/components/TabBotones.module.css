@@ -1,0 +1,133 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 40px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    width: 756px;
+    height: 132px;
+    border-radius: 20px;
+    background: #eabfff;
+    margin: 40px;
+}
+
+.rectangulo2 {
+    width: 349.6px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #300047;
+    margin: 20px;
+}
+
+.portafolio {
+    width: 348.55px;
+    height: 33px;
+    top: 49px;
+    left: 23.63px;   
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: -0.5px;
+    text-align: center;   
+    color: #ffffff; 
+    margin-top: 20px;
+}
+
+.portafolio:hover, .rectangulo2:hover{
+    background-color: #d580ff;
+}
+
+.text {
+    width: 382.37px;
+    height: 33px;
+    top: 46px;
+    left: 373.63px;
+    height: 33px;
+    left: 49.42%;
+    right: 10%;
+}
+
+.skills {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: -0.5px;
+    text-align: center;   
+    color: #300047; 
+    margin-right: 40px;
+}
+@media (max-width: 768px) {
+    .contenedor {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        gap: 40px;
+        margin-bottom: 30px;
+        font-family: 'Poppins', sans-serif;
+        width: 330px;
+        height: 64px;
+        padding: 10px, 20px, 18, 20px;
+        gap: 10px;
+        border-radius: 10px;
+        gap: 9px;
+        background: #eabfff;
+        margin: 20px;
+    }
+    
+    .rectangulo2 {
+        width: 158px;
+        height: 44px;
+        right: 328px;
+        background: #660066;
+        border-radius: 10px;
+        color:#ffffff;
+        cursor: pointer;
+        font-size: 8px;
+        margin: 5px;
+    }
+    
+    .portafolio {
+        width: 140px;
+        height: 44px;
+        top: 21.5px;
+        left: 68.82px;
+        top: calc(50% - 21px/2);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: -0.500211px;
+        color: #ffffff; 
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    
+    .portafolio:hover, .rectangulo2:hover{
+        background-color: #d580ff;
+    }
+    
+    .text {
+        width: 382.37px;
+        height: 33px;
+        top: 46px;
+        left: 373.63px;
+        height: 33px;
+        left: 49.42%;
+        right: 10%;
+    }
+    
+    .skills {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: -0.5px;
+        text-align: center;   
+        color: #300047; 
+        margin-right: 40px;
+    }
+}
