@@ -29,6 +29,7 @@
     left: 1px;
     border-radius: 15px;
     background-color: #d580ff;
+    cursor: pointer;
 }
 
 .imagen img:hover {
@@ -67,6 +68,7 @@
     padding: 5.83px, 1.67px, 5.83px, 1.67px;
     align-items: center;
     margin: 8.5px;
+    cursor: help;
 }
 @media (max-width: 768px) {
     .contenedor {

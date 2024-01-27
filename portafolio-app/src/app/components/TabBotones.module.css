@@ -20,6 +20,7 @@
     border-radius: 10px;
     background-color: #300047;
     margin: 20px;
+    cursor: pointer;
 }
 
 .portafolio {
@@ -48,6 +49,7 @@
     height: 33px;
     left: 49.42%;
     right: 10%;
+    cursor: pointer;
 }
 
 .skills {
